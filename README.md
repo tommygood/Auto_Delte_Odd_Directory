@@ -6,4 +6,4 @@ So the temporary solution is auto detect the directory which have evil code, and
 
 <h2>Execution</h2>
 
-auto execute per 60 minutes over the root privileges with the crontab： `sudo crontab -e */60 * * * * python3 /xxx/check_hack.py`
+auto execute per 60 minutes over the root privileges with the crontab： `sudo crontab -e`  : `*/60 * * * * python3 /xxx/check_hack.py`
